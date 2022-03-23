@@ -1,3 +1,5 @@
+@import url(../vendor/normalize.css);
+@import url(../vendor/fonts/fonts.css);
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__icon/_map/header__icon_map.css);
 @import url(../blocks/header/__icon/_phone/header__icon_phone.css);
@@ -5,3 +7,10 @@
 @import url(../blocks/header/__item/header__item.css);
 @import url(../blocks/header/__logo/header__logo.css);
 @import url(../blocks/header/__menu/header__menu.css);
+@import url(../blocks/header/__item/_active/header__item_active.css);
+@import url(../blocks/page/page.css);
+@import url(../blocks/body/body.css);
+@import url(../blocks/services/__btn/services__btn.css);
+@import url(../blocks/services/__title/services__title.css);
+@import url(../blocks/services/services.css);
+@import url(../blocks/services/__title/_black/service__title_black.css);

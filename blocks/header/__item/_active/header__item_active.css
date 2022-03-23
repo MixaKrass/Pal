@@ -1,0 +1,6 @@
+.header__item_active {
+  font-weight: 800;
+  border-bottom: 1px solid #222;
+  padding-bottom: 53px;
+  opacity: 1;
+}

@@ -1,3 +1,4 @@
 .header__icon_phone {
   background-image: url(../../../../images/Phone.svg);
+  border-left: 1px solid #E5E5E5;
 }
