@@ -6,3 +6,19 @@
   src: url("Gilroy-Extrabold.woff2") format("woff2"),
        url("Gilroy-Extrabold.woff") format("woff");
 }
+
+@font-face {
+  font-family: 'Montserrat', sans-serif;
+  font-style:  normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("Montserrat-Regular.ttf") format("ttf");
+}
+
+@font-face {
+  font-family: 'Montserrat', sans-serif;
+  font-style:  normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("Montserrat-Regular.ttf") format("ttf");
+}

@@ -1,0 +1,15 @@
+.contacts__social-point {
+  background-image: url(../../../images/social.svg);
+  background-repeat: no-repeat;
+  list-style-type: none;
+  width: 30px;
+  height: 30px;
+  padding-right: 10px;
+  cursor: pointer;
+}
+
+/* В макете даны три черные картинки
+поэтому единый класс, а если были бы разными, 
+то картикни вставлял бы через модификатор 
+и обернуть в ссылку, чтобы направить на 
+соответствующую соц.сеть*/

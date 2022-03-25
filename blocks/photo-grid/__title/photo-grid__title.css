@@ -1,0 +1,9 @@
+.photo-grid__title {
+  color: rgba(0, 0, 0, 0);
+  -webkit-text-stroke: 1px black;
+  width: 539px;
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}

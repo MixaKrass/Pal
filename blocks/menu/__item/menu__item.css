@@ -1,0 +1,15 @@
+.menu__item {
+  width: 359px;
+  color: white;
+  font-size: 20px;
+  line-height: 25px;
+  text-align: center;
+  cursor: pointer;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-left: none;
+  padding-top: 31px;
+}
+
+.menu__item:last-child {
+  border-right: none;
+}

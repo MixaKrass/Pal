@@ -27,15 +27,107 @@
 
     <main class="contain">
       <section class="services">
-        <h1 class="services__title"><span style="color: rgba(0, 0, 0, 1)">Ремонт</span> и 
-          <span style="color: rgba(0, 0, 0, 1)">дизайн</span><br>
-          в&nbsp;Москве&nbsp;и&nbsp;Московской&nbsp;области</h1>
-          <button class="services__btn">Оставить заявку</button>
+        <h1 class="services__title"><span class="services__title_black">Ремонт</span> и 
+          <span class="services__title_black">дизайн</span><br>
+          в&nbsp;Москве&nbsp;и&nbsp;Московской&nbsp;области</h1> 
+        <button class="services__btn">
+        <div class="services__border"></div> Оставить заявку</button>
+        <div class="menu">
+          <ul class="menu__nav">
+            <li class="menu__item">Услуги по ремонту</li>
+            <li class="menu__item">Виды работ</li>
+            <li class="menu__item">Дизайн интерьера</li>
+            <li class="menu__item">Ремонт помещений</li>
+          </ul>
+          <div class="menu__arrow"></div>
+        </div>
+      </section>
+
+      <section class="photo-grid">
+        <div class="photo-grid__title">
+          <div class="photo-grid__border"></div>
+          <h2 class="photo-grid__text">
+             <span class="services__title_black">Примеры</span>
+               выполненных <span class="services__title_black">работ
+            </span>
+          </h2>
+        </div>
+      </section>
+      <section class="gall">
+        <div class="gallery">
+          <img class="gallery-item" src="./images/grid/photo_1.jpg" alt="пример работы">
+          <img class="gallery-item" src="./images/grid/photo_2.jpg" alt="пример работы">
+          <img class="gallery-item" src="./images/grid/photo_3.jpg" alt="пример работы">
+      </div>
+      <button class="services__btn services__btn_all">
+        <div class="services__border services__border_all"></div> Все проекты</button>
+      </section>
+
+      <section class="contacts">
+        <div class="photo-grid__title">
+          <div class="photo-grid__border"></div>
+          <h2 class="photo-grid__text">
+             <span class="services__title_black">Связаться</span>
+               с нами
+          </h2>
+        </div>
+        <div class="contacts__info">
+          <div class="contacts__addres">
+            <div class="contacts__point">
+              <h2 class="contacts__title">Офис</h2>
+              <p class="contacts__subtitle">Москва, ул. Уличная, д. 1, оф. 1</p>
+            </div>
+            <div class="contacts__point">
+              <h2 class="contacts__title">E-mail</h2>
+              <p class="contacts__subtitle">company@company.ru</p>
+            </div>
+            <div class="contacts__point">
+              <h2 class="contacts__title">Социальные сети</h2>
+              <ul class="contacts__social">
+                <li class="contacts__social-point"></li>
+                <li class="contacts__social-point"></li>
+                <li class="contacts__social-point"></li>
+              </ul>
+            </div>
+          </div>
+          <div class="contacts__connect">
+            <div class="contacts__point">
+              <h2 class="contacts__title">Режим работы</h2>
+              <p class="contacts__subtitle">Пн-Вт: 10&#8304;&#8304; — 19&#8304;&#8304;; Сб-Вс: 10&#8304;&#8304; — 15&#8304;&#8304;</p>
+            </div>
+            <div class="contacts__point">
+              <h2 class="contacts__title">Телефон</h2>
+              <p class="contacts__subtitle">8 (800) 900-00-00</p>
+            </div>
+          </div>
+          <div class="contacts__form">
+            <div class="contacts__point">
+              <h2 class="contacts__title">Остались вопросы?</h2>
+              <form class="form">
+                <h3 class="form__title">Ваше имя</h3>
+                  <input type="text" class="form__input" placeholder="Введите имя" minlength="2" maxlength="40" required>
+                  <span class="form__error"></span>
+                <h3 class="form__title">Телефон / E-mail</h3>
+                  <input type="text" class="form__input" placeholder="example@example.com" minlength="2" maxlength="40" required>
+                  <span class="form__error"></span>
+                <h3 class="form__title">Ваше сообщение</h3>
+                  <input type="text" class="form__input" placeholder="Текст обращения" required>
+                  <span class="form__error"></span>
+                <p class="form__subtitle">Нажимая на кнопку «Получить консультацию», вы соглашаетесь
+                  на&#160;<span class="form__span">обработку&#160;персональных данных</span></p>
+                <button class="services__btn services__btn_form">
+                  <div class="services__border services__border_form">
+                  </div>Получить консультацию</button>
+            </form>
+            </div>
+          </div>
+        </div>
       </section>
     </main>
 
-    <footer>
-
+    <footer class="footer">
+      <h2 class="footer__copyright">&#169; 2022 Сompany. <span class="footer__regular">Соглашение об обработке персональных данных и политика конфиденциальности</span></h2>
+      <p class="footer__subtitle"><span class="footer__regular">Сделано в </span>Palladiumlab</p>
     </footer>
   </div>
 </body>

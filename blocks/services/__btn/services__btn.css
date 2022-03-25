@@ -1,0 +1,14 @@
+.services__btn {
+  display: flex;
+  width: 207px;
+  padding: 10px 47px 10px 22px;
+  background-color: white;
+  border: 1px solid rgba(34, 34, 34, 0.3);
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 800;
+  margin: 0 auto;
+  margin-top: 48px;
+  height: 40px;
+  cursor: pointer;
+}
