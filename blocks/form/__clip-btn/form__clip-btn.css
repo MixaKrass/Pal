@@ -1,0 +1,13 @@
+.form__clip-btn {
+  background-image: url(../../../images/Clip.svg);
+  background-repeat: no-repeat;
+  background-color: white;
+  min-width: 18px;
+  height: 18px;
+  padding: 0;
+  padding-bottom: 5px;
+  cursor: pointer;
+  border: none;
+  
+  
+}

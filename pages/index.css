@@ -54,3 +54,6 @@
 @import url(../blocks/footer/__copyright/footer__copyright.css);
 @import url(../blocks/footer/__subtitle/footer__subtitle.css);
 @import url(../blocks/footer/__regular/footer__regular.css);
+@import url(../blocks/form/__clip-btn/form__clip-btn.css);
+@import url(../blocks/form/__clip/form__clip.css);
+@import url(../blocks/form/__input/_border/form__input_border.css);
