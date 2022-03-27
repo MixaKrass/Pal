@@ -1,0 +1,11 @@
+.header__info {
+  position: absolute;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  width: 1270px;
+  margin-left: 86px;
+  background: #fff;
+  height: 85px;
+  z-index: 2;
+}

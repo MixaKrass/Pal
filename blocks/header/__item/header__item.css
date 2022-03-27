@@ -11,3 +11,10 @@
 .header__item:first-child {
   margin-left: 0px;
 }
+
+.header__item:hover {
+  font-weight: 800;
+  border-bottom: 1px solid #222;
+  padding-bottom: 53px;
+  opacity: 1;
+}

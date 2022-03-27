@@ -2,4 +2,10 @@
   width: 85px;
   background-repeat: no-repeat;
   background-position: center;
+  cursor: pointer;
+  z-index: 5;
+}
+
+.header__icon:hover .header__info {
+  display: flex;
 }

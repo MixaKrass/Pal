@@ -2,3 +2,7 @@
   background-image: url(../../../../images/Map\ Marker.svg);
   border-right: 1px solid #E5E5E5;
 }
+
+.header__icon_map:hover {
+  background-image: url(../../../../images/Map\ Marker\ Orange.svg);
+}
