@@ -1,15 +1,22 @@
 .menu__item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 359px;
+  height: 85px;
   color: white;
   font-size: 20px;
   line-height: 25px;
-  text-align: center;
   cursor: pointer;
   border: 1px solid rgba(255, 255, 255, 0.3);
   border-left: none;
-  padding-top: 31px;
 }
 
 .menu__item:last-child {
   border-right: none;
+}
+
+.menu__item:hover .menu__uslugi {
+  opacity: 1;
+  z-index: 0;
 }

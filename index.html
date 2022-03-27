@@ -10,39 +10,82 @@
 <body class="body">
   <div class="page">
     <header class="header">
-      <div class="header__icon header__icon_map"></div>
-      <ul class="header__menu">
-        <li class="header__item header__item_active">Главная</li>
-        <li class="header__item">О компании</li>
-        <li class="header__item">Услуги</li>
-      </ul>
-      <div class="header__logo"></div>
-      <ul class="header__menu">
-        <li class="header__item">Цены</li>
-        <li class="header__item">Портфолио</li>
-        <li class="header__item">Контакты</li>
-      </ul>
-      <div class="header__icon header__icon_phone"></div>
-    </header>
+      <div class="header__container">
+        <div class="header__icon header__icon_map"></div>
+        <ul class="header__menu">
+          <li class="header__item header__item_active">Главная</li>
+          <li class="header__item">О компании</li>
+          <li class="header__item">Услуги</li>
+        </ul>
+        <div class="header__logo"></div>
+        <ul class="header__menu">
+          <li class="header__item">Цены</li>
+          <li class="header__item">Портфолио</li>
+          <li class="header__item">Контакты</li>
+        </ul>
+        <div class="header__icon header__icon_phone"></div>
+    </div>
+   
 
-    <main class="contain">
+    
       <section class="services">
+        <div class="services__container">
         <h1 class="services__title"><span class="services__title_black">Ремонт</span> и 
-          <span class="services__title_black">дизайн</span><br>
+          <span class="services__title_black">дизайн</span>
+          <span class="services__subtitle services__subtitle_0">Услуги по ремонту</span>
+          <span class="services__subtitle services__subtitle_1">Виды работ</span>
+          <span class="services__subtitle services__subtitle_2">Дизайн интерьера</span>
+          <span class="services__subtitle services__subtitle_3">Ремонт помещений</span>
+          <br>
           в&nbsp;Москве&nbsp;и&nbsp;Московской&nbsp;области</h1> 
         <button class="services__btn">
         <div class="services__border"></div> Оставить заявку</button>
+        </section>
         <div class="menu">
           <ul class="menu__nav">
-            <li class="menu__item">Услуги по ремонту</li>
-            <li class="menu__item">Виды работ</li>
-            <li class="menu__item">Дизайн интерьера</li>
-            <li class="menu__item">Ремонт помещений</li>
+            <li class="menu__item">Услуги по ремонту
+              <div class="menu__uslugi menu__uslugi_red">
+                <div class="menu__container">
+                  <h4 class="menu__title">Услуги по ремонту</h4>
+                  <p class="menu__subtitle">С другой стороны реализация намеченных плановых заданий<br>требуют от нас анализа.</p>
+                </div>
+                <div class="menu__arrow menu__arrow_right rotation"></div> 
+              </div>
+            </li>
+            <li class="menu__item menu__item_example">Виды работ
+              <div class="menu__uslugi menu__uslugi_green">
+                <div class="menu__container">
+                  <h4 class="menu__title">Виды работ</h4>
+                  <p class="menu__subtitle">С другой стороны реализация намеченных плановых заданий требуют от нас анализа.</p>
+                </div>
+                <div class="menu__arrow menu__arrow_right rotation"></div> 
+              </div>
+            </li>
+            <li class="menu__item menu__item_design">Дизайн интерьера
+              <div class="menu__uslugi menu__uslugi_blue">
+                <div class="menu__container">
+                  <h4 class="menu__title">Дизайн интерьера</h4>
+                  <p class="menu__subtitle">С другой стороны реализация намеченных плановых заданий требуют от нас анализа.</p>
+                </div>
+                <div class="menu__arrow menu__arrow_right rotation"></div> 
+              </div>
+            </li>
+            <li class="menu__item menu__item_remont">Ремонт помещений
+              <div class="menu__uslugi menu__uslugi_purple">
+                <div class="menu__container">
+                  <h4 class="menu__title">Ремонт помещений</h4>
+                  <p class="menu__subtitle">С другой стороны реализация намеченных плановых заданий требуют от нас анализа.</p>
+                </div>
+                <div class="menu__arrow menu__arrow_right rotation"></div> 
+              </div>
+            </li>
           </ul>
-          <div class="menu__arrow"></div>
+          <div class="menu__arrow menu__arrow_down rotation"></div>
         </div>
-      </section>
+      </div>
+    </header>
 
+      <main class="contain">
       <section class="photo-grid">
         <div class="photo-grid__title">
           <div class="photo-grid__border"></div>
@@ -52,8 +95,7 @@
             </span>
           </h2>
         </div>
-      </section>
-      <section class="gall">
+     
         <div class="gallery">
           <img class="gallery-item" src="./images/grid/photo_1.jpg" alt="пример работы">
           <img class="gallery-item" src="./images/grid/photo_2.jpg" alt="пример работы">

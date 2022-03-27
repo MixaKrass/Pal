@@ -1,0 +1,12 @@
+.menu__uslugi {
+  height: 725px;
+  width: 360px;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 0;
+  opacity: 0;
+  transition: opacity .3s ease;
+  z-index: -1;
+}
+

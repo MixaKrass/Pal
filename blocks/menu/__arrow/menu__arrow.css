@@ -1,9 +1,8 @@
 .menu__arrow {
-  background-image: url(../../../images/strelka.svg);
   background-repeat: no-repeat;
   width: 40px;
   height: 40px;
   margin: 0 auto;
-  margin-top: 22.5px;
   cursor: pointer;
+  color: white;
 }
