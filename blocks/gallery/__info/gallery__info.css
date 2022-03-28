@@ -1,0 +1,8 @@
+.gallery__info {
+  width: 181px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-bottom: 32px;
+  opacity: 0;
+}

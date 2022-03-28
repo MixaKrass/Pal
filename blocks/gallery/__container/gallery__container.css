@@ -1,0 +1,4 @@
+.gallery__container {
+  display: flex;
+  position: relative;
+}

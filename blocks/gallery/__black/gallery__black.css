@@ -1,0 +1,17 @@
+.gallery__black {
+  height: 100%;
+  padding-left: 32px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-shadow: 0 0 0 372px rgba(42, 44, 47, 0.1) inset;
+  transition: all 0.3s ease;
+}
+
+.gallery__black:hover {
+  box-shadow: 0 0 0 372px rgba(42, 44, 47, 0.6) inset;
+}
+
+.gallery__black:hover .gallery__info {
+  opacity: 1;
+}

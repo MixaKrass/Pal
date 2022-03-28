@@ -1,0 +1,8 @@
+.gallery__title {
+  font-size: 10px;
+  line-height: 12px;
+  font-family: 'Montserrat', sans-serif;
+  color: rgba(255, 255, 255, 0.7);
+  font-weight: 500;
+  margin: 0 auto; 
+}

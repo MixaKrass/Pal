@@ -1,0 +1,4 @@
+.gallery-item_3 {
+  grid-area: three;
+  background-image: url(../../../../images/grid/photo_3.jpg);
+}
