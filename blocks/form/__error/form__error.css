@@ -1,0 +1,6 @@
+.form__error {
+  font-size: 9px;
+  line-height: 12px;
+  color: rgba(218, 33, 40, 1);
+  visibility: hidden;
+}

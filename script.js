@@ -3,6 +3,10 @@ const servicesTitle = document.querySelector('.services__title');
 const head = document.querySelector('.header');
 const items = document.querySelectorAll('.menu__item');
 
+const formElement = document.querySelector('.form');
+const formInput = formElement.querySelector('.form__input');
+const formError = formElement.querySelector('.form__error');
+
 for (let item of items) {
   item.addEventListener('mouseenter', function(evt) {
     const name = evt.target.dataset.name;
@@ -20,3 +24,30 @@ for (let item of items) {
   })
 }
 
+const showError = (input, errorMessage) => {
+  input.classList.add('form__input_type_error');
+  formError.textContent = errorMessage;
+  formError.classList.add('form__error_active');
+};
+
+const hideError = (input) => {
+  input.classList.remove('form__input_type_error');
+  formError.textContent;
+  formError.classList.remove('form__error_active')
+};
+
+const checkInputValidity = () => {
+  if (!formInput.validity.valid) {
+    showError(formInput, formInput.validationMessage);
+  } else {
+    hideError(formInput);
+  }
+};
+
+formElement.addEventListener('submit', function(evt) {
+  evt.preventDefault();
+});
+
+formInput.addEventListener('input', function() {
+  checkInputValidity();
+});

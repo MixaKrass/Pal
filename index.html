@@ -31,7 +31,7 @@
         <div class="header__icon header__icon_phone">
           <div class="header__info header__info_left">
             <p class="header__number">8 (800) 900-00-00</p>
-            <button class="services__btn services__btn_phone">
+            <button type="button" class="services__btn services__btn_phone">
               <div class="services__border"></div>Заказать звонок</button>
           </div>
         </div>
@@ -50,7 +50,7 @@
           <span class="services__subtitle remont">Ремонт помещений</span>
           <br>
           <span class="services__text">в&nbsp;Москве&nbsp;и&nbsp;Московской&nbsp;области</span></h1> 
-        <button class="services__btn">
+        <button type="button" class="services__btn">
         <div class="services__border"></div> Оставить заявку</button>
         </section>
         <div class="menu">
@@ -237,7 +237,7 @@
             </div>
           </div>
       </div>
-      <button class="services__btn services__btn_all">
+      <button type="button" class="services__btn services__btn_all">
         <div class="services__border services__border_all"></div> Все проекты</button>
       </section>
 
@@ -281,22 +281,25 @@
           <div class="contacts__form">
             <div class="contacts__point">
               <h2 class="contacts__title">Остались вопросы?</h2>
-              <form class="form">
+              
+              <form class="form" novalidate>
                 <h3 class="form__title">Ваше имя</h3>
-                  <input type="text" class="form__input" placeholder="Введите имя" minlength="2" maxlength="40" required>
+                <label class="form__field">
+                  <input type="text" class="form__input" id="name-input" placeholder="Введите имя" minlength="2" maxlength="40" required>
                   <span class="form__error"></span>
+                </label>
                 <h3 class="form__title">Телефон / E-mail</h3>
-                  <input type="text" class="form__input" placeholder="example@example.com" minlength="2" maxlength="40" required>
-                  <span class="form__error"></span>
-                <h3 class="form__title">Ваше сообщение</h3>
-                <div class="form__clip">
-                  <input type="text" class="form__input form__input_border" placeholder="Текст обращения" required>
-                  <button class="form__clip-btn"></button>
-                  <span class="form__error"></span>
-                </div>
+                <input type="email" class="form__input" placeholder="example@example.com" minlength="2" maxlength="40" required>
+                <span class="form__error"></span>
+              <h3 class="form__title">Ваше сообщение</h3>
+              <div class="form__clip">
+                <input type="text" class="form__input form__input_border" placeholder="Текст обращения" required>
+                <button type="button" class="form__clip-btn"></button>
+                <span class="form__error"></span>
+              </div> 
                 <p class="form__subtitle">Нажимая на кнопку «Получить консультацию», вы соглашаетесь
                   на&#160;<span class="form__span">обработку&#160;персональных данных</span></p>
-                <button class="services__btn services__btn_form">
+                <button  type="button" class="services__btn services__btn_form">
                   <div class="services__border services__border_form">
                   </div>Получить консультацию</button>
             </form>
@@ -314,3 +317,5 @@
   <script src="script.js"></script>
 </body>
 </html>
+
+
