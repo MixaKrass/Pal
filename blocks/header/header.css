@@ -1,6 +1,23 @@
 .header {
   display: flex;
   flex-direction: column;
-  
-  height: 810px;
+  background: bottom url(../../images/menu.svg);
+  background-repeat: no-repeat;
+  height: 810px; 
+}
+
+.header.white .header__item {
+  color: white;
+}
+
+.header.white .header__icon_map {
+  background-image: url(../../images/Map\ Marker\ White.svg);
+}
+
+.header.white .header__icon_phone {
+  background-image: url(../../images/Phone\ White.svg);
+}
+
+.header.white .header__logo {
+  background-image: url(../../images/Logo\ White.svg);
 }

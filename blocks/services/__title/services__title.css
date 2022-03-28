@@ -5,6 +5,46 @@
   width: 981px;
   margin: 0 auto;
   color: rgba(0, 0, 0, 0);
-  -webkit-text-stroke: 1px black;
-  
+  -webkit-text-stroke: 1px black; 
+}
+
+.services__title.uslugi .services__subtitle.default {
+  display: none;
+}
+
+.services__title.uslugi .services__subtitle.uslugi {
+  display: inline;
+  color: white;
+  -webkit-text-stroke: 1px white; 
+}
+
+
+.services__title.works .services__subtitle.default {
+  display: none;
+}
+
+.services__title.works .services__subtitle.works {
+  display: inline;
+  color: white;
+  -webkit-text-stroke: 1px white; 
+}
+
+.services__title.design .services__subtitle.default {
+  display: none;
+}
+
+.services__title.design .services__subtitle.design {
+  display: inline;
+  color: white;
+  -webkit-text-stroke: 1px white; 
+}
+
+.services__title.remont .services__subtitle.default {
+  display: none;
+}
+
+.services__title.remont .services__subtitle.remont {
+  display: inline;
+  color: white;
+  -webkit-text-stroke: 1px white; 
 }
